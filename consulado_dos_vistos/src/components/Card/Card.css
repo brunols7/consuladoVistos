@@ -1,0 +1,54 @@
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .price {
+    font-size: 32px;
+    color: #673AB7;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .contract-button {
+    background-color: #673AB7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .features {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+  
+  .features li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .available {
+    color: green;
+  }
+  
+  .unavailable {
+    color: red;
+    text-decoration: line-through;
+  }
