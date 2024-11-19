@@ -1,0 +1,178 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #eee !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#logo-consulado {
+    color: #9824BE;
+    font-weight: 700;
+}
+
+.destino-banner {
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.flag {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.flag:hover {
+    scale: 1.1;
+}
+
+.text-center p {
+    color: #000;
+    font-size: 1rem;
+}
+
+.card img {
+    filter: brightness(0.8);
+}
+
+.card h5 {
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.custom-title {
+    color: #9824BE;
+    font-weight: bold;
+}
+
+.topic-description {
+    color: #333;
+    font-weight: 600;
+}
+
+#renovacao-btn:hover {
+    scale: 1.02;
+    background-color: #6b1886;
+}
+
+#fale-conosco-btn:hover {
+    scale: 1.02;
+    background-color: #6b1886;
+}
+
+#container-elemento:hover {
+    scale: 1.02;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    color: #9824BE;
+    padding-bottom: 10px;
+}
+
+.footer-info {
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: white;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.footer-info a {
+    text-decoration: underline !important;
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.form-section .form-control[disabled] {
+    background-color: #e9ecef;
+}
+
+.form-section .container-title {
+    font-weight: 700;
+    color: #9824BE;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-section .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section .btn-danger {
+    background-color: #9824BE;
+    border: none;
+    color: white;
+}
+
+.form-section .form-check-input:checked {
+    background-color: #9824BE;
+    border-color: #9824BE;
+}
+
+.form-section .section-container {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.form-section textarea.form-control {
+    resize: vertical;
+}
+
+#textarea-info {
+    resize: none;
+}
+
+.form-check-label a {
+    text-decoration: underline;
+    color: #9824BE;
+}
+
+.custom-btn {
+    background-color: #9824BE !important;
+    border-color: #9824BE !important;
+    transition: background-color 0.3s, border-color 0.3s !important;
+}
+
+.custom-btn:hover {
+    background-color: #7a28ba !important;
+    border-color: #7a28ba !important;
+}
+
+@media screen and (max-width: 768px) {
+    .form-label {
+        padding-top: 10px;
+    }
+}
