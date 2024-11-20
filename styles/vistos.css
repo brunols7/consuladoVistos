@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2 !important;
+}
+
+.title-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title-container .text-black {
+    color: #000;
+}
+
+.title-container .text-purple {
+    color: #7a28ba;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.menu-container .menu-item {
+    margin: 0 15px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-container .menu-item:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px;
+    color: #ccc;
+}
+
+.menu-item:hover {
+    scale: 1.2;
+}
+
+.pricing-section {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.pricing-section h2 {
+    font-weight: bold;
+}
+
+.pricing-section p {
+    color: #666;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: black !important;
+}
+
+.price span{
+    font-weight: 700;
+    font-size: 32px !important;
+}
+
+.price-sub {
+    font-size: 14px;
+}
+.list-group-item {
+    color: black;
+    text-align: start;
+    font-size: 1rem;
+    border: none; 
+    padding: 0.5rem 1rem; 
+}
+
+#contratar-btn{
+
+    border-color: #7a28ba;
+    background-color: #ffffff;
+    color: #7a28ba;
+    font-weight: 600 ; 
+    border-radius: 5px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+#contratar-btn:hover{
+    background-color: #7a28ba; 
+    border-color: #7a28ba ; 
+    color: #fff;
+}
+
+#contratar-btn-ativo{
+    transition: all 0.3s ease;
+    background-color: #7a28ba; 
+    border-color: #7a28ba ; 
+    font-weight: 600 ; 
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contratar-btn-ativo:hover{
+    background-color: #ffffff;
+    color: #7a28ba;
+    transform: scale(1.02);
+    border-color: #7a28ba;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    color: #9824BE;
+    padding-bottom: 10px;
+}
+
+.footer-info {
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: white;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.footer-info a {
+    text-decoration: underline !important;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-container .menu-item{
+        font-size: 16px;
+        margin: 0 6px
+    }
+    
+}
