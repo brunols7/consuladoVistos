@@ -97,7 +97,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     if (camposFaltando.length > 0) {
         alert('Por favor, preencha todos os campos. Faltam: ' + camposFaltando.join(', '));
     } else {
-        alert('Compra realizada com sucesso!');
+        alert('Parabéns! Sua solicitação de compra para o Consulado de Vistos foi realizada com sucesso! Aguarde o contato de um de nossos consultores.');
         window.location.href = '../index.html';
     }
 });
